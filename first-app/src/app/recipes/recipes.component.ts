@@ -4,6 +4,6 @@ import { Component } from '@angular/core';
     selector: 'app-recipes',
     templateUrl: './recipes.component.html'
 })
-export class RecipesComponent{
-    
+export class RecipesComponent {
+
 }
