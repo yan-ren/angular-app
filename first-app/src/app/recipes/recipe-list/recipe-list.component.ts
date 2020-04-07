@@ -5,7 +5,7 @@ import { Recipe } from '../recipe.model';
   selector: 'app-recipe-list',
   templateUrl: './recipe-list.component.html'
 })
-export class RecipeListComponent{
+export class RecipeListComponent implements OnInit{
   recipes: Recipe[] = [
     new Recipe('Test', 'This is test', 'https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2018/12/Shakshuka-19.jpg'),
     new Recipe('Second Test', 'This is test', 'https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2018/12/Shakshuka-19.jpg')

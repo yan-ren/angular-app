@@ -5,7 +5,7 @@ import { Recipe } from '../recipe.model'
     selector: 'app-recipe-detail',
     templateUrl: './recipe-detail.component.html'
 })
-export class RecipeDetailComponent{
+export class RecipeDetailComponent implements OnInit{
   @Input() recipe: Recipe;
 
   constructor() {}
